@@ -1,0 +1,90 @@
+/* Using Tailwind CSS */
+    /* Add your custom styles here */
+    /* Styling for the active list item */
+    .active-item {
+        background-color: #605CEB;
+        color: white;
+      }
+  
+      .search-input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 2px solid #605CEB;
+        border-radius: 5px;
+      }
+  
+      .scroll-list {
+        max-height: 350px;
+        overflow-y: scroll;
+      }
+  
+      /* WebKit Scrollbar */
+      ::webkit-scrollbar {
+        width: 0.5em;
+        background: transparent;
+      }
+  
+      ::webkit-scrollbar-thumb {
+        background: #605CEB;
+        border-radius: 500px;
+      }
+  
+      /* Firefox Scrollbar */
+      .scroll-list {
+        scrollbar-width: thin;
+        scrollbar-color: #605CEB transparent;
+      }
+  
+      /* Microsoft Edge Scrollbar */
+      @media screen and (-ms-high-contrast: active),
+      (-ms-high-contrast: none) {
+        .scroll-list {
+          -ms-overflow-style: none;
+        }
+  
+        .scroll-list::-ms-scrollbar-thumb {
+          background: #605CEB;
+          border-radius: 500px;
+        }
+      }
+  
+      /* Styling for the active list item */
+      .country-item.active,
+      .state-item.active,
+      .city-item.active {
+        background-color: #605CEB;
+        color: white;
+      }
+  
+      .country-item,
+      .state-item,
+      .city-item {
+        padding: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .country-item:hover,
+      .state-item:hover,
+      .city-item:hover {
+        background-color: #605CEB;
+        color: white;
+      }
+  
+      .search-box {
+        background-color: #F7F7F7;
+        border: 1px solid #E5E5E5;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .search-heading {
+        text-align: center;
+      }
+  
+      .search-heading {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
