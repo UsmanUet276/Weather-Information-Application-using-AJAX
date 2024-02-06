@@ -19,7 +19,6 @@ Clone the repository to your local machine:
 
     git clone https://github.com/example/weather-information-app.git
 
-
 Set up the database:
 Import the provided SQL file (e.g., new.sql) to create the necessary tables for countries, states, and cities.
 Configure the database connection settings in the database.php file.
