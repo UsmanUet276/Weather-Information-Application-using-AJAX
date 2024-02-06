@@ -40,6 +40,9 @@ Configure the database connection settings in the database.php file.
     js/: Directory containing JavaScript libraries (e.g., jQuery).
     sql/: SQL file for database
 
+## Live Link:
+Link of Deployed application: https://develpment.wuaze.com/dev/ajax/
+
 ## Contributing:
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements or bug fixes.
